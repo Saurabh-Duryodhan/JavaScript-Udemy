@@ -30,13 +30,13 @@ button {
 
 .scoreBoard{
     display: flex;
-    margin-top: 5rem;
+    margin-top: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .scoreBoard > h2{
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 6rem;
     text-align: center;
@@ -49,12 +49,13 @@ input{
 }
 
 .hitNumbers{
-    background-color: rgba(135, 183, 222, 0.459);
     padding: 2rem;
-    margin-top: 20px;
-    display: flex;
+    margin-top: 0.5;
+    display: grid;
     justify-content: space-around;
     justify-items: center;
+    gap: 20px;
+    text-align: center;
 }
 
 #check{
