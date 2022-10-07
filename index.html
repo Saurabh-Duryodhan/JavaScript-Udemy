@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topNav">
+        <button onclick="playAgain()"> Again! </button>
+        <h4>(Between 1 to 20)</h4>
+    </div>
+
+    <div class="scoreBoard">
+        <h1>Guess My Number</h1>
+        <h2 id="got_score" value="0">0</h2>
+    </div>
+
+    <div class="hitNumbers">
+        <div>
+            <input id="checkNumber" type="number" minlength="0" max="20">
+            <button onclick="checkAns()" id="check">Check!</button>
+        </div>
+        <div class="dashBoard">
+            <h3 id="status">Start Guessing...!</h3>
+            <h3>💯Score:<h3 id="score">20</h3></h3>
+            <h3 id="highScore">🎖️HighScore: </h3>
+        </div>
+    </div>
+    <div style="position: fixed; bottom: 0px; right: 0px; padding:10px; color: white; background-color: black;">
+        <h6 style="text-align: center;">Game Developed By <a style="text-decoration: none; color: yellow;" href="https://www.instagram.com/srdx808/">Saurabh Duryodhan</a></h6>
+    </div>
+<script src="./gameChalenge.js"></script>
+</body>
+</html>

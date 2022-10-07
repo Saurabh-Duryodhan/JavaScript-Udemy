@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease-in-out 0.3s;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: blanchedalmond;
+    padding: 20px;
+    height: 100vh;
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.topNav > h4{
+    font-size: 1.5rem;
+}
+
+.scoreBoard{
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scoreBoard > h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 6rem;
+    text-align: center;
+    color: blue;
+
+}
+
+input{
+    padding: 0.5rem;
+}
+
+.hitNumbers{
+    background-color: rgba(135, 183, 222, 0.459);
+    padding: 2rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+#check{
+    margin-top: 20px
+}
+
+.dashBoard > h3 {
+    font-size: 1rem;
+}
